@@ -41,7 +41,9 @@
     }
 }
 
-.top-header nav ul li h4 {
+.top-header nav ul li a {
+    text-decoration: none;
+    color: inherit;
     font-weight: 500;
     line-height: 129%;
     letter-spacing: 0.04em;

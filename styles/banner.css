@@ -50,7 +50,7 @@
 
 }
 
-.banner__title h2 {
+.banner__title h1 {
     font-weight: 700;
     font-size: 30px;
     line-height: 120%;
@@ -138,7 +138,8 @@
     color: #fff;
 }
 
-.rating__about h5 {
+.rating__about strong {
+    display: block;
     font-weight: 800;
     font-size: 24px;
     margin-bottom: 5px;

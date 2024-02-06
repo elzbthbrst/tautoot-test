@@ -61,7 +61,7 @@ main {
     font-weight: 700;
 }
 
-.main__content article h1 {
+.main__content article h2 {
     font-weight: 900;
     font-size: 42px;
     line-height: 129%;
@@ -114,7 +114,7 @@ main {
     gap: 5px;
 }
 
-.main__wrapper aside .wrapper h3 {
+.main__wrapper aside .wrapper h5 {
     font-weight: 700;
     font-size: 60px;
     line-height: 120%;
@@ -187,7 +187,7 @@ main {
     align-items: center;
 }
 
-.more-articles__item-about h5 {
+.more-articles__item-about h4 {
     width: 100%;
     font-weight: 700;
     font-size: 22px;
