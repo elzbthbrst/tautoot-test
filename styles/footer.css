@@ -54,7 +54,7 @@
     }
 }
 
-.footer__logo-text p {
+.footer__logo-text p:last-child {
     margin-top: 12px;
 }
 
