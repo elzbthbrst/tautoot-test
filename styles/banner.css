@@ -264,7 +264,7 @@
     }
 }
 
-.banner__burger h6 {
+.banner__burger div {
     font-weight: 500;
     font-size: 20px;
     color: var(--text-color-70);
