@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,700;0,800;0,900;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/reset-style.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/banner.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/93d343bc3a.js" crossorigin="anonymous" defer></script>
+    <!-- script -->
+    <script src="js/domVariables.js" defer></script>
+    <script src="js/changeTheme.js" defer></script>
+    <script src="js/setRating.js" defer></script>
+    <script src="js/index.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section class="top-header">
+            <div class="top-header__container container">
+                <nav>
+                    <ul>
+                        <li>
+                            <i class="fa fa-solid fa-mobile-screen-button"></i>
+                            <h4>Menu item 1</h4>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-filter"></i>
+                            <h4>Menu item 2</h4>
+                        </li>
+                        <li>
+                            <img src="./img/icons/android.svg" alt="android">
+                            <h4>Menu item 3</h4>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-apple"></i>
+                            <h4>Menu item 4</h4>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="top-header__social-media">
+                    <ul>
+                        <li>
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-twitter"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-youtube"></i>
+                        </li>
+                        <li>
+                            <img src="./img/icons/google-dock.svg" alt="google-dock icon">
+                        </li>
+                        <li>
+                            <img src="./img/icons/wi-fi.svg" alt="wi-fi icon">
+                        </li>
+                    </ul>
+                    <div class="top-header__theme-switcher">
+                        <label id="switch" class="switch">
+                            <input type="checkbox" id="slider">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-header">
+            <div class="main-header__container container">
+                <div class="main-header__menu">
+                    <img id="logo" src="./img/logo-light.png" alt="logo"></img>
+                    <nav>
+                        <ul>
+                            <li>
+                                <h3>Item</h3>
+                            </li>
+                            <li>
+                                <h3>Item</h3>
+                            </li>
+                            <li>
+                                <h3>Item</h3>
+                            </li>
+                            <li>
+                                <h3>Item</h3>
+                            </li>
+                            <li>
+                                <h3>Item</h3>
+                            </li>
+                            <li>
+                                <h3>Item</h3>
+                            </li>
+                            <li>
+                                <h3>Item</h3>
+                            </li>
+                            <li>
+                                <h3>Item</h3>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Search for…">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+                <div class="main-header__burger-menu" id='main-burger'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+        <section class="main-header__main-burger main-burger" id="main-menu">
+            <form action="">
+                <input type="text" placeholder="Search for…">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+            <nav class="main-burger__nav">
+                <ul>
+                    <li>
+                        <a href="#">Item</a>
+                    </li>
+                    <li>
+                        <a href="#">Item</a>
+                    </li>
+                    <li>
+                        <a href="#">Item</a>
+                    </li>
+                    <li>
+                        <a href="#">Item</a>
+                    </li>
+                    <li>
+                        <a href="#">Item</a>
+                    </li>
+                    <li>
+                        <a href="#">Item</a>
+                    </li>
+                    <li>
+                        <a href="#">Item</a>
+                    </li>
+                    <li>
+                        <a href="#">Item</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="main-burger__footer">
+                <ul>
+                    <li>
+                        <i class="fa fa-solid fa-mobile-screen-button"></i>
+                        <h4>Menu item 1</h4>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-filter"></i>
+                        <h4>Menu item 2</h4>
+                    </li>
+                    <li>
+                        <img id="android" src="./img/icons/androig-grey.svg" alt="android">
+                        <h4>Menu item 3</h4>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-apple"></i>
+                        <h4>Menu item 4</h4>
+                    </li>
+                </ul>
+            </nav>
+
+        </section>
+    </header>
+
+    <main class="main">
+        <div class="main__container container">
+            <section class="main__banner banner">
+                <div class="banner__about">
+                    <div class="wrapper">
+                        <div class="banner__name">
+                            <img src="./img/goddess-of-victory-nikke-icon-120x120.jpg.png" alt="banner picture">
+                            <div class="banner__title">
+                                <h2>Lorem Ipsum is simply dummy</h2>
+                                <div class="banner__buttons">
+                                    <a href="#">
+                                        <img src="./img/icons/android.svg" alt="android">
+                                        <span>Android</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa-brands fa-apple"></i>
+                                        <span>IOS</span>
+                                    </a>
+                                    <a href="#">
+                                        <img src="./img/icons/download.svg" alt="download">
+                                        <span>Download on PC</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner__rating rating">
+                            <div class="rating__view">
+                                <span>0</span>
+                            </div>
+                            <div class="rating__about">
+                                <h5>Players</h5>
+                                <span>12 votes</span>
+                                <h6>Your rating:<span>5.2</span></h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="banner__nav">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                            <li><a href="#">item</a></li>
+                            <li><a href="#">item</a></li>
+                            <li><a href="#">item</a></li>
+                            <li><a href="#">item</a></li>
+                        </ul>
+                    </nav>
+                    <div class="banner__score">
+                        <span id="view-score">Note</span>
+                        <ul id="score">
+                            <li data-rating='1'>1</li>
+                            <li data-rating='2'>2</li>
+                            <li data-rating='3'>3</li>
+                            <li data-rating='4'>4</li>
+                            <li data-rating='5'>5</li>
+                            <li data-rating='6'>6</li>
+                            <li data-rating='7'>7</li>
+                            <li data-rating='8'>8</li>
+                            <li data-rating='9'>9</li>
+                            <li data-rating='10'>10</li>
+                        </ul>
+                    </div>
+                    <div class="banner__burger">
+                        <h6>More info</h6>
+                        <div class="banner-burger" id="banner-burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="banner__menu" id="banner-menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+                        <li><a href="#">item</a></li>
+                        <li><a href="#">item</a></li>
+                        <li><a href="#">item</a></li>
+                        <li><a href="#">item</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <div class="main__wrapper">
+                <section class="main__content">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home > </a></li>
+                            <li><a href="#">Lorem Ipsum is ></a></li>
+                            <li><a href="#">Lorem Ipsum is simply dummy</a> </li>
+                        </ul>
+                    </nav>
+                    <article>
+                        <h1>Lorem Ipsum is simply dummy</h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                    </article>
+                    <div class="main__more-articles more-articles">
+                        <h6>Similar articles</h6>
+                        <section class="more-articles__list">
+                            <div class="more-articles__item">
+                                <img src="./img/article-preview.png" alt="article preview">
+                                <div class="more-articles__item-about">
+                                    <h5>Lorem Ipsum is simply dummy</h5>
+                                    <div class="more-articles__item-info">
+                                        <div>
+                                            <img src="./img/icons/user.svg" alt="user">
+                                            <span>Alco</span>
+                                        </div>
+                                        <div>
+                                            <img src="./img/icons/clock.svg" alt="user">
+                                            <span>26 janvier 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="more-articles__item">
+                                <img src="./img/article-preview.png" alt="article preview">
+                                <div class="more-articles__item-about">
+                                    <h5>Lorem Ipsum is simply dummy</h5>
+                                    <div class="more-articles__item-info">
+                                        <div>
+                                            <img src="./img/icons/user.svg" alt="user">
+                                            <span>Alco</span>
+                                        </div>
+                                        <div>
+                                            <img src="./img/icons/clock.svg" alt="user">
+                                            <span>26 janvier 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="more-articles__item">
+                                <img src="./img/article-preview.png" alt="article preview">
+                                <div class="more-articles__item-about">
+                                    <h5>Lorem Ipsum is simply dummy</h5>
+                                    <div class="more-articles__item-info">
+                                        <div>
+                                            <img src="./img/icons/user.svg" alt="user">
+                                            <span>Alco</span>
+                                        </div>
+                                        <div>
+                                            <img src="./img/icons/clock.svg" alt="user">
+                                            <span>26 janvier 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="more-articles__item">
+                                <img src="./img/article-preview.png" alt="article preview">
+                                <div class="more-articles__item-about">
+                                    <h5>Lorem Ipsum is simply dummy</h5>
+                                    <div class="more-articles__item-info">
+                                        <div>
+                                            <img src="./img/icons/user.svg" alt="user">
+                                            <span>Alco</span>
+                                        </div>
+                                        <div>
+                                            <img src="./img/icons/clock.svg" alt="user">
+                                            <span>26 janvier 2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+                <aside>
+                    <div class="wrapper">
+                        <h3>ADS </h3>
+                        <span>300x600</span>
+
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content container">
+                <section class="footer__logo">
+                    <img src="./img/logo-light.png" id="logo" alt="logo">
+                    <div class="footer__logo-text">
+                        <h5>Lorem Ipsum is simply dummy</h5>
+                        <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            It
+                            has survived not only five</p>
+                    </div>
+                    <div class="footer__logo-social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <img id="icon-google" src="./img/icons/google-lazur.svg" alt="google-link">
+                        <img id="icon-wifi" src="./img/icons/wi-fi-lazur.svg" alt="">
+                    </div>
+                </section>
+                <section class="footer__nav-container">
+
+                    <div class="footer__nav">
+                        <div class="footer__nav-item">
+                            <h4>Categhory</h4>
+                            <nav>
+                                <ul>
+                                    <li> <a href="#">item 1</a></li>
+                                    <li> <a href="#">item 2</a></li>
+                                    <li> <a href="#">item 3</a></li>
+                                    <li> <a href="#">item 4</a></li>
+                                    <li> <a href="#">item 5</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer__nav-item">
+                            <h4>Play better</h4>
+                            <nav>
+                                <ul>
+                                    <li> <a href="#">item 1</a></li>
+                                    <li> <a href="#">item 2</a></li>
+                                    <li> <a href="#">item 3</a></li>
+                                    <li> <a href="#">item 4</a></li>
+                                    <li> <a href="#">item 5</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer__nav-item">
+                            <h4>Useful links</h4>
+                            <nav>
+                                <ul>
+                                    <li> <a href="#">link</a></li>
+                                    <li> <a href="#">link</a></li>
+                                    <li> <a href="#">link</a></li>
+                                    <li> <a href="#">link</a></li>
+                                    <li> <a href="#">link</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <span>Copyright © 2024. Tous droits réservés.</span>
+                </section>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

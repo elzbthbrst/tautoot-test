@@ -1,0 +1,136 @@
+.footer {
+    padding: 28px;
+
+    @media screen and (max-width: 1000px) {
+        padding: 20px;
+    }
+}
+
+.footer__container {
+    border-radius: 40px;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.16);
+    background: linear-gradient(90deg, #0dd0ba 0%, #2a86e5 100%);
+}
+
+.footer__content {
+    padding: 20px 10px;
+    display: flex;
+    gap: 55px;
+
+    @media screen and (max-width: 1000px) {
+        flex-direction: column;
+        padding: 30px 22px 40px 22px;
+    }
+}
+
+.footer__logo {
+    border-radius: 20px;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.16);
+    background: var(--footer-logo-background);
+    padding: 75px 21px 31px 21px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (max-width: 1000px) {
+        max-width: 100%;
+        padding: 30px 70px;
+    }
+}
+
+.footer__logo-text {
+    margin-top: 65px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 144%;
+    letter-spacing: 0.03em;
+    color: var(--footer-logo-color);
+    padding: 0 15px 35px 15px;
+
+    @media screen and (max-width: 1000px) {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+.footer__logo-text p {
+    margin-top: 12px;
+}
+
+.footer__logo-social {
+    font-size: 22px;
+    color: var(--footer-logo-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.footer__nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__nav {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 120px;
+
+    @media screen and (max-width: 660px) {
+        flex-direction: column;
+        gap: 48px;
+    }
+}
+
+.footer__nav-item h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 129%;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.footer__nav-item nav {
+    margin-top: 14px;
+}
+
+.footer__nav-item nav ul {
+    list-style: inside;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    @media screen and (max-width: 1000px) {
+        align-items: center;
+    }
+}
+
+.footer__nav-item nav ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 133%;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+
+.footer__nav-container span {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 131%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    align-self: start;
+    margin-top: 65px;
+
+    @media screen and (max-width: 1000px) {
+        align-self: center;
+        margin-top: 32px;
+    }
+}
