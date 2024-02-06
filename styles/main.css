@@ -134,7 +134,7 @@ main {
 
 }
 
-.more-articles h6 {
+.more-articles h3 {
     font-weight: 700;
     font-size: 20px;
     line-height: 130%;
@@ -142,7 +142,7 @@ main {
     color: var(--text-color);
 }
 
-.more-articles h6::after {
+.more-articles h3::after {
     content: '';
     display: block;
     border-radius: 20px;
