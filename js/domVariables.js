@@ -10,7 +10,7 @@ const mainBurgerMenu = document.querySelector('#main-menu')
 const bannerBurgerBtn = document.querySelector('#banner-burger')
 const bannerBurgerMenu = document.querySelector('#banner-menu')
 //change theme
-const checkbox = document.querySelector('#slider')
+const checkbox = document.querySelector('#change-theme')
 const body = document.querySelector("body")
 const logo = document.querySelectorAll("#logo")
 const iconGoogle = document.querySelector("#icon-google")
